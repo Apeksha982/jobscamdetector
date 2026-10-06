@@ -1,6 +1,7 @@
 # jobscamdetector
 
-Live demo:
+Live demo:https://jobscamdetector-juthbstfhgownjs5bz3qhr.streamlit.app/
+
 
 An AI tool that helps students check job posts and recruiter messages for scam signs.
 Built for ForgeHacks 2026, AI + Cybersecurity track.
