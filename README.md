@@ -4,7 +4,7 @@ Live demo:https://jobscamdetector-juthbstfhgownjs5bz3qhr.streamlit.app/
 
 
 An AI tool that helps students check job posts and recruiter messages for scam signs.
-Built for ForgeHacks 2026, AI + Cybersecurity track.
+
 
 ## Problem
 Students and job seekers are targeted by fake job offers: fake checks, upfront fees, requests for personal data, and pressure to move to private chat apps. Most people have no quick way to check a message before they respond.
@@ -24,12 +24,12 @@ Students and early-career job seekers.
 - Final risk: a blend of model probability and rule score. Strong rule evidence alone can set HIGH.
 - App: Streamlit. The model trains on first start from the dataset in the repo.
 
-## Results (held-out test set, 20%)
+## Results 
 Fake class: precision 0.84, recall 0.91, F1 0.87.
 Confusion matrix: 157 fake caught, 16 missed, 31 real flagged as fake, 3372 real correct.
 Accuracy alone is misleading here because most postings are real.
 
-## Limitations (honest)
+## Limitations 
 - The dataset is older and has a specific style. The model may do worse on short modern recruiter texts.
 - Some learned terms reflect dataset quirks, not scam behavior, and may unfairly flag legitimate roles such as data entry.
 - Rules can be avoided by a careful scammer.
